@@ -1,0 +1,22 @@
+.generic-content-container {
+    margin-top: 1.66rem;
+    h2 {
+            text-align: center;
+        }
+    
+    @mixin atMedium {
+        margin-top: 0.1rem;
+    p {
+        line-height: 1.6;
+        font-size: 1rem;
+        margin: 1.38rem 0;
+    }
+    p a {
+        font-weight: 700;
+        
+    } 
+        h2 {
+            text-align: left;
+        }
+    }
+}
