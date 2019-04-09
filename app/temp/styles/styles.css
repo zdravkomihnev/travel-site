@@ -688,9 +688,9 @@ a {
     }
 
 @media (min-width: 800px) {
-    .row--gutters > div {
-        padding-right:  65px;
-    }
+   .row__gutters > div {
+     padding-right:  65px;
+        }
     }
 
 @media (min-width: 800px) {
@@ -703,6 +703,19 @@ a {
         margin-top: -10px;
         float: left;
         width: 66.66%;
+    }
+    }
+
+@media (min-width: 530px) {
+    .row__medium-6 {
+        float: left;
+        width: 50%;
+    }
+    .row--gutters-large {
+        margin-right: -100px;
+    }
+    .row--gutters-large > div {
+        padding-right: 100px;
     }
     }
 
@@ -720,9 +733,10 @@ a {
         margin-top: 0.1rem
 }
     .generic-content-container p {
+        font-weight: 300;
         line-height: 1.6;
         font-size: 1rem;
-        margin: 1.38rem 0;
+        margin: 0 0 1.38rem 0;
     }
     .generic-content-container p a {
         font-weight: 700;
@@ -731,4 +745,87 @@ a {
         .generic-content-container h2 {
             text-align: left;
         }
+    }
+
+.section-title {
+    font-size: 2.55rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: .5em;
+    
+}
+
+@media (min-width: 530px) {
+
+.section-title {
+        font-size: 3.75rem;
+        margin-bottom: 1em
+    
+}
+    }
+
+.section-title strong {
+        font-weight: 500;
+    }
+
+.section-title__icon {
+        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: .6em;   
+    }
+
+@media (min-width: 530px) {
+
+.section-title__icon {
+            margin-right: 0.5em;
+            margin-left: 0;
+            margin-bottom: 0;
+            display: inline-block   
+    }
+    }
+
+.feature-item {
+    position: relative;
+}
+
+@media (min-width: 530px) {
+
+.feature-item {
+        padding-left: 94px
+}
+    }
+
+.feature-item__icon {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__icon {
+        
+        position: relative;
+        left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        display: inline-block
+    }
+    }
+
+.feature-item__title {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-bottom: .8rem;
+    }
+
+@media (min-width: 530px) {
+
+.feature-item__title {
+            text-align: left;
+            font-size: 1.875rem
+    }
     }
