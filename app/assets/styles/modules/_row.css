@@ -4,6 +4,7 @@
     @mixin atMedium {
    &__gutters > div {
      padding-right:  65px;
+    padding-left: 65px;
         }
        
     }
@@ -31,5 +32,19 @@
     &--gutters-large > div {
         padding-right: 100px;
     }
+    }
+    
+    &__t-padding {
+        padding-top: 80px;
+    }
+    &--equal-height-at-large {
+        @mixin atLarge {
+            display: flex;
+            
+        }
+        & > div {
+            float: none;
+            display: flex;
+        }
     }
 }
